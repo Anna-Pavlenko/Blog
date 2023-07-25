@@ -3,7 +3,15 @@
         <!-- Sidebar Menu -->
         <nav class="mt-2">
           <ul class="pt-3 nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">   
-            <li class="nav-item">
+          <li class="nav-item">
+              <a href="{{route('admin.index')}}" class="nav-link">
+                <i class="nav-icon fas fa-home"></i>
+                <p>
+                 Main
+                </p>
+              </a>
+            </li>
+          <li class="nav-item">
               <a href="{{route('admin.user.index')}}" class="nav-link">
                 <i class="nav-icon fas fa-users"></i>
                 <p>

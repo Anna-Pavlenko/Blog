@@ -81,10 +81,9 @@
                 {{ $category->id == old('category_id') ? 'selected' : ''}}>
                 {{ $category->title}} </option>  
               @endforeach
-             
-            </select>
-                           
+            </select>            
           </div>
+          
           <div class="form-group">
             <label>Tag</label>
             <select class="select2" name="tag_ids[]" multiple="multiple" data-placeholder="Select a tag" style="width: 100%;">
